@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON 7</title> <!--Внутри тайтл добавляем название (любое, абсолютно любое.)-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet"> <!--Привязка шрифта к index.html, берём эту фигню у fonts.google.com-->
+    <link rel="stylesheet" href="css/style.css"> <!--Привязка css к индекс.html -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <section id="main"> <!-- Начало всех начал, крутые мы пон -->
+        <header id="header">
+            <div class="wrapper">
+                <div class="row between">
+                    <div class="logo col">
+                        <a href="/"></a>
+                    </div>
+                    <menu class="menu col">
+                        <nav>
+                            <ul>
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#barchart">Features</a></li>
+                                <li><a href="#plans">Pricing</a></li>
+                                <li><a href="/blog.html">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </menu>
+                    <div class="button col">
+                        <a href="#contact">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="hero">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="hero_text col">
+                        <h1>ДОНАТ-САЙТ</h1>
+                        <p>Продажа игровых валют, донат-плюшек, донат-коинов и привилегии</p>
+                        <div class="row">
+                            <div class="button blue col">
+                                <a href="#contact">Get Started</a>
+                            </div>
+                            <div class="button_down col">
+                                <a href="#partners"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_3d col">
+                        <div class="img stand" data-speed="2" style="background: url('img/stand.png');"></div>
+                        <div class="img pose" data-speed="4" style="background: url('img/pose.png');"></div>
+                        <div class="img bubble" data-speed="3" style="background: url('img/bubble.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="partners">
+            <div class="wrapper">
+                <div class="row between">
+                    <div class="partner ball col"></div>
+                    <div class="partner piramides col"></div>
+                    <div class="partner figures col"></div>
+                    <div class="partner burger col"></div>
+                    <div class="partner amongus col"></div>
+                </div>
+            </div>
+        </section>
+        <section id="piechart">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="piechart_img col">
+                        <img data-speed="2" class="img piechart" src="img/piechart.svg" alt="Piechart">
+                        <img data-speed="3" class="img pose_piechart" src="img/pose-piechart.png" alt="Piechart Pose">
+                    </div>
+                    <div class="chart_text col">
+                        <h2>Subcription Index</h2>
+                        <p>A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="barchart">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="chart_text col">
+                        <h2>In-depth metrics</h2>
+                        <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="barchart_img">
+                        <img data-speed="2" src="img/barchart.png" class="barchart img" alt="Barchart">
+                        <img data-speed="3" src="img/pose-barchart.png" class="pose_barchart img" alt="Pose barrchart">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="benefit col">
+                        <img src="img/icon-001.png" alt="Первая иконка">
+                        <h3>Benchmarks</h3>
+                        <p>See how you stack up against comparable companies in similar stages.</p>
+                    </div>
+                    <div class="benefit col">
+                        <img src="img/icon-002.png" alt="Вторая иконка">
+                        <h3>Pricing Audit</h3>
+                        <p>Benchmark the health of your monetization and pricing strategy.</p>
+                    </div>
+                    <div class="benefit col">
+                        <img src="img/icon-003.png" alt="Третья иконка">
+                        <h3>Retention Audit</h3>
+                        <p>Audit where revenue leakage exists and where you can increase retention.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="plans">
+            <div class="wrapper">
+                <div class="row between">
+                    <h2>Get the right plan for future product.</h2>
+                    <div class="tarifs_tabs col">
+                        <div class="tarifs_tabs_title left active" data-time="month">Monthly</div>
+                    <div class="tarifs_tabs_title right" data-time="year">Yearly</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="plan col">
+                        <div class="plan_name">Starter</div>
+                        <div class="price"><span>Free</span></div>
+                        <div class="description">
+                            1 Website<br /><br />
+                            5 GB Hosting <br /><br />
+                            Limited Support
+                        </div>
+                        <div class="button">
+                            <a href="#contact">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="plan col">
+                        <div class="plan_name">Premium</div>
+                        <div class="price">$<span class="number">29</span><span class="during">/month</span></div>
+                        <div class="description">                            
+                            10 Website<br /><br />
+                            15 GB Hosting<br /><br />
+                            Premium Support
+                        </div>
+                        <div class="button">
+                            <a href="#contact">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="plan col">
+                        <div class="plan_name">Enterprise</div>
+                        <div class="price">$<span class="number">49</span><span class="during">/month</span></div>
+                        <div class="description">
+                            Unlimited Website<br /><br />
+                            50 GB Hosting<br /><br />
+                            Premium Support
+                        </div>
+                        <div class="button">
+                            <a href="#contact">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <script>                
+                /*** -=- Yandex Map -=- ***/
+                ymaps.ready(init);
+                var myMap,
+                    myPlacemark
+
+                function init(){
+                    myMap = new ymaps.Map("map", {
+                        center: [39.647425, 66.948673],
+                        zoom: 17
+                    });
+
+                    myPlacemark = new ymaps.Placemark([39.647425, 66.948673], {
+                        hintContent: 'Хаккерство да и только',
+                        balloonContent: 'Узбекистан, г. Самарканд, улица Фирдоуси, 17 школа'
+                    }, {
+                        
+                        iconLayout: 'default#image',
+                        
+                        iconImageHref: 'img/subtract.svg',
+                        
+                        iconImageSize: [34, 48],
+                        
+                        iconImageOffset: [-22, -54]
+                    });
+
+                    myMap.geoObjects.add(myPlacemark);
+                }
+            </script>
+            <div id="map" style="width: 100%; height: 684px;">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="form col">
+                            <div class="order">
+                                <form action="#">
+                                    <h3>Contact Us</h3>
+                                    <div class="input_field">
+                                        <input type="text" name="name" placeholder="Your Name...">
+                                    </div>
+                                    <div class="input_field">
+                                        <input type="email" name="email" placeholder="E-Mail...">
+                                    </div>
+                                    <div class="input_field">
+                                        <input type="tel" name="tel" placeholder="Phone...">
+                                    </div>
+                                    <div class="text_field">
+                                        <textarea name="subject" cols="30" rows="10" placeholder="Subject..."></textarea>
+                                    </div>
+                                    <div class="button blue">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="scrollTop"></div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
